@@ -59,3 +59,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = m.bremm@student.maastrichtuniversity.nl
+	name = martin bremm

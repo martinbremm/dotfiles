@@ -46,3 +46,7 @@ set title
 
 " copy to clipboard
 set clipboard=unnamed
+
+" setting swap file directory
+set swapfile
+set dir=~/swapfiles

@@ -45,7 +45,9 @@ set visualbell
 set title
 
 " copy to clipboard
-set clipboard=unnamed
+set clipboard=unname
+" copy without line numbers
+se mouse+=a
 
 " setting swap file directory
 set swapfile

@@ -45,10 +45,17 @@ set visualbell
 set title
 
 " copy to clipboard
-set clipboard=unname
+set clipboard=unnamed
 " copy without line numbers
-se mouse+=a
+set mouse=a
 
 " setting swap file directory
 set swapfile
 set dir=~/swapfiles
+
+" nnoremap "+y y
+" nnoremap "+p p
+nnoremap <C-c> "+y
+vnoremap <C-c> "+y
+nnoremap <C-p> "+p
+vnoremap <C-p> "+p
